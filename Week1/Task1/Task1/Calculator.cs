@@ -1,7 +1,4 @@
-﻿using System;
-using System.Linq;
-
-namespace Task1
+﻿namespace Task1
 {
     public class Calculator
     {
@@ -74,7 +71,7 @@ namespace Task1
                 Console.Write("Выберите операцию (+, -, *, /):");
                 string inputOperation = Console.ReadLine();
 
-                if (!string.IsNullOrEmpty(inputOperation) && "+-*/".Contains(inputOperation[0]))
+                if (!string.IsNullOrEmpty(inputOperation) && inputOperation.Length == 1 && "+-*/".Contains(inputOperation[0]))
                 {
                     return inputOperation[0];
                 }

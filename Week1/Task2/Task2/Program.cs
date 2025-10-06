@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Threading;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 
 namespace Task2
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             var syncStopwatch = Stopwatch.StartNew();
 
@@ -24,10 +20,11 @@ namespace Task2
             syncStopwatch.Stop();
             Console.WriteLine($"Общее время синхронной обработки: {syncStopwatch.Elapsed.TotalSeconds:F2} секунд\n");
 
+            var firstDataSet = new List<string> { "Файл 1", "Файл 2", "Файл 3" };
+
             var asyncStopwatch = Stopwatch.StartNew();
 
-            var firstDataSet = new List<string> { "Файл 1", "Файл 2", "Файл 3" };
-            RunAsyncProcessing(firstDataSet).Wait();
+            await RunAsyncProcessing(firstDataSet);
 
             asyncStopwatch.Stop();
             Console.WriteLine($"Общее время асинхронной обработки: {asyncStopwatch.Elapsed.TotalSeconds:F2} секунд");
@@ -45,7 +42,7 @@ namespace Task2
         static async Task<string> ProcessDataAsync(string dataName)
         {
             Console.WriteLine($"Начало асинхронной обработки {dataName}...");
-            await Task.Delay(3000); 
+            await Task.Delay(3000);
             return $"Обработка '{dataName}' завершена за 3 секунды ";
         }
 
