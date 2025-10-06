@@ -29,7 +29,7 @@
             }
 
         }
-        public static double DoOperation(double first, double second, char operation)
+        static double DoOperation(double first, double second, char operation)
         {
             switch (operation)
             {
@@ -46,7 +46,7 @@
             }
         }
 
-        public static double GetNumber(string prompt)
+        static double GetNumber(string prompt)
         {
             while (true)
             {
@@ -64,7 +64,7 @@
             }
         }
 
-        public static char GetOperation()
+        static char GetOperation()
         {
             while (true)
             {
@@ -82,7 +82,7 @@
             }
         }
 
-        public static bool AskToContinue()
+        static bool AskToContinue()
         {
             while (true)
             {
