@@ -81,7 +81,6 @@
                 }
             }
         }
-
         static bool AskToContinue()
         {
             while (true)
