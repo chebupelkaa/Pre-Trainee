@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Projects\\c#\\Pre-Trainee\\Week2\\TasksManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ED2D255E-4050-354B-A764-96872A3A8398}|TasksManagement.UI\\TasksManagement.UI.csproj|d:\\projects\\c#\\pre-trainee\\week2\\tasksmanagement\\tasksmanagement.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2D255E-4050-354B-A764-96872A3A8398}|TasksManagement.UI\\TasksManagement.UI.csproj|solutionrelative:tasksmanagement.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2F223937-54DC-44CC-871A-520D9D86E1ED}|TaskManagement.DAL\\TaskManagement.DAL.csproj|d:\\projects\\c#\\pre-trainee\\week2\\tasksmanagement\\taskmanagement.dal\\dbconnection\\sqlserverconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F223937-54DC-44CC-871A-520D9D86E1ED}|TaskManagement.DAL\\TaskManagement.DAL.csproj|solutionrelative:taskmanagement.dal\\dbconnection\\sqlserverconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2F223937-54DC-44CC-871A-520D9D86E1ED}|TaskManagement.DAL\\TaskManagement.DAL.csproj|d:\\projects\\c#\\pre-trainee\\week2\\tasksmanagement\\taskmanagement.dal\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F223937-54DC-44CC-871A-520D9D86E1ED}|TaskManagement.DAL\\TaskManagement.DAL.csproj|solutionrelative:taskmanagement.dal\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED2D255E-4050-354B-A764-96872A3A8398}|TasksManagement.UI\\TasksManagement.UI.csproj|d:\\projects\\c#\\pre-trainee\\week2\\tasksmanagement\\tasksmanagement.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED2D255E-4050-354B-A764-96872A3A8398}|TasksManagement.UI\\TasksManagement.UI.csproj|solutionrelative:tasksmanagement.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 276,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SqlServerConnection.cs",
               "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week2\\TasksManagement\\TaskManagement.DAL\\DbConnection\\SqlServerConnection.cs",
               "RelativeDocumentMoniker": "TaskManagement.DAL\\DbConnection\\SqlServerConnection.cs",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Task.cs",
               "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week2\\TasksManagement\\TaskManagement.DAL\\Models\\Task.cs",
               "RelativeDocumentMoniker": "TaskManagement.DAL\\Models\\Task.cs",
@@ -55,12 +55,11 @@
               "RelativeToolTip": "TaskManagement.DAL\\Models\\Task.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T22:35:13.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T22:35:13.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ITaskRepository.cs",
               "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week2\\TasksManagement\\TaskManagement.DAL\\Repositories\\ITaskRepository.cs",
               "RelativeDocumentMoniker": "TaskManagement.DAL\\Repositories\\ITaskRepository.cs",
@@ -68,12 +67,11 @@
               "RelativeToolTip": "TaskManagement.DAL\\Repositories\\ITaskRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T22:35:09.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T22:35:09.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TaskRepository.cs",
               "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week2\\TasksManagement\\TaskManagement.DAL\\Repositories\\TaskRepository.cs",
               "RelativeDocumentMoniker": "TaskManagement.DAL\\Repositories\\TaskRepository.cs",
@@ -81,18 +79,17 @@
               "RelativeToolTip": "TaskManagement.DAL\\Repositories\\TaskRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T22:34:58.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-12T22:34:58.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week2\\TasksManagement\\TasksManagement.UI\\Program.cs",
               "RelativeDocumentMoniker": "TasksManagement.UI\\Program.cs",
               "ToolTip": "D:\\Projects\\c#\\Pre-Trainee\\Week2\\TasksManagement\\TasksManagement.UI\\Program.cs",
               "RelativeToolTip": "TasksManagement.UI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-12T22:34:42.854Z",
               "EditorCaption": ""
