@@ -20,8 +20,15 @@ namespace LibraryManagement.Controllers
         [HttpGet("{id}")]
         public IActionResult GetAuthorById(int id)
         {
-            var author = _authorRepository.GetById(id);
-            return author == null ? NotFound($"Author with ID {id} not found") : Ok(author);
+            try
+            {
+                var author = _authorRepository.GetById(id);
+                return Ok(author);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
 
         [HttpPost]
@@ -29,14 +36,24 @@ namespace LibraryManagement.Controllers
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
 
-            var author = new Author
+            try
             {
-                Name = authorDTO.Name,
-                DateOfBirth = authorDTO.DateOfBirth
-            };
-
-            var createdAuthor = _authorRepository.Create(author);
-            return CreatedAtAction(nameof(GetAuthorById), new { id = createdAuthor.Id }, createdAuthor);
+                var author = new Author
+                {
+                    Name = authorDTO.Name,
+                    DateOfBirth = authorDTO.DateOfBirth
+                };
+                var createdAuthor = _authorRepository.Create(author);
+                return CreatedAtAction(nameof(GetAuthorById), new { id = createdAuthor.Id }, createdAuthor);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpPut("{id}")]
@@ -44,22 +61,39 @@ namespace LibraryManagement.Controllers
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
 
-            var author = _authorRepository.GetById(id);
-            if (author == null) return NotFound($"Author with ID {id} not found");
-
-            author.Name = authorDTO.Name;
-            author.DateOfBirth = authorDTO.DateOfBirth;
-            _authorRepository.Update(author);
-            return NoContent();
+            try
+            {
+                var author = new Author
+                {
+                    Id = id,
+                    Name = authorDTO.Name,
+                    DateOfBirth = authorDTO.DateOfBirth
+                };
+                _authorRepository.Update(author);
+                return NoContent();
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpDelete("{id}")]
         public IActionResult DeleteAuthor(int id)
         {
-            var author = _authorRepository.GetById(id);
-            if (author == null) return NotFound($"Author with ID {id} not found");
-            _authorRepository.Delete(id);
-            return NoContent();
+            try
+            {
+                _authorRepository.Delete(id);
+                return NoContent();
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
     }
 }

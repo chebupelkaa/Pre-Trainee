@@ -8,10 +8,19 @@ namespace LibraryManagement.DAL.Repositories
     {
         public IEnumerable<Author> GetAll() => DataContext.Authors;
 
-        public Author? GetById(int id) => DataContext.Authors.FirstOrDefault(a => a.Id == id);
+        public Author GetById(int id) 
+        {
+            var author = DataContext.Authors.FirstOrDefault(b => b.Id == id);
+            if (author == null)
+                throw new KeyNotFoundException($"Author with ID {id} not found");
+            return author;
+        }
 
         public Author Create(Author author)
         {
+            if (author == null)
+                throw new ArgumentNullException(nameof(author));
+
             author.Id = DataContext.Authors.Max(a => a.Id) + 1;
             DataContext.Authors.Add(author);
             return author;
@@ -20,18 +29,14 @@ namespace LibraryManagement.DAL.Repositories
         public void Update(Author author)
         {
             var existing = GetById(author.Id);
-            if (existing != null)
-            {
-                existing.Name = author.Name;
-                existing.DateOfBirth = author.DateOfBirth;
-            }
+            existing.Name = author.Name;
+            existing.DateOfBirth = author.DateOfBirth;
         }
 
         public void Delete(int id)
         {
             var author = GetById(id);
-            if (author != null)
-                DataContext.Authors.Remove(author);
+            DataContext.Authors.Remove(author);
         }
     }
 }
