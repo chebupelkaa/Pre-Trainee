@@ -1,14 +1,10 @@
-﻿using LibraryManagement.DAL.Models;
+﻿using LibraryManagement.DAL.Entities;
 
 namespace LibraryManagement.DAL.Interfaces
 {
-    public interface IBookRepository
+    public interface IBookRepository : IRepository<Book>
     {
-        IEnumerable<Book> GetAll();
-        Book GetById(int id);
-        Book Create(Book item);
-        void Update(Book item);
-        void Delete(int id);
-        bool AuthorExists(int authorId);
+        Task<IEnumerable<Book>> GetBooksWithAuthorsAsync();
+        Task<IEnumerable<Book>> GetBooksPublishedAfterAsync(int year);
     }
 }

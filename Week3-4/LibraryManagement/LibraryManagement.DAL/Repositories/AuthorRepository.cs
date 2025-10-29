@@ -1,42 +1,34 @@
 ﻿using LibraryManagement.DAL.Data;
 using LibraryManagement.DAL.Interfaces;
-using LibraryManagement.DAL.Models;
+using LibraryManagement.DAL.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace LibraryManagement.DAL.Repositories
 {
-    public class AuthorRepository : IAuthorRepository
+    public class AuthorRepository : Repository<Author>, IAuthorRepository
     {
-        public IEnumerable<Author> GetAll() => DataContext.Authors;
+        public AuthorRepository(LibraryContext context):base(context) { }
 
-        public Author GetById(int id) 
+        public override async Task<Author>? GetByIdAsync(int id)
         {
-            var author = DataContext.Authors.FirstOrDefault(b => b.Id == id);
-            if (author == null)
-                throw new KeyNotFoundException($"Author with ID {id} not found");
-            return author;
+            return await _dbSet.AsNoTracking().Include(a => a.Books).FirstOrDefaultAsync(a => a.Id == id);
         }
 
-        public Author Create(Author author)
+        public async Task<IEnumerable<Author>> GetAuthorsWithBooksAsync()
         {
-            if (author == null)
-                throw new ArgumentNullException(nameof(author));
-
-            author.Id = DataContext.Authors.Max(a => a.Id) + 1;
-            DataContext.Authors.Add(author);
-            return author;
+            return await _dbSet
+                .Include(a => a.Books)
+                .AsNoTracking()
+                .ToListAsync();
         }
 
-        public void Update(Author author)
+        public async Task<IEnumerable<Author>> FindAuthorsByNameAsync(string name)
         {
-            var existing = GetById(author.Id);
-            existing.Name = author.Name;
-            existing.DateOfBirth = author.DateOfBirth;
-        }
-
-        public void Delete(int id)
-        {
-            var author = GetById(id);
-            DataContext.Authors.Remove(author);
+            return await _dbSet
+               .Include(a => a.Books)
+               .Where(a => a.Name.Contains(name))
+               .AsNoTracking()
+               .ToListAsync();
         }
     }
 }

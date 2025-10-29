@@ -1,57 +1,33 @@
 ﻿using LibraryManagement.DAL.Data;
 using LibraryManagement.DAL.Interfaces;
-using LibraryManagement.DAL.Models;
+using LibraryManagement.DAL.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace LibraryManagement.DAL.Repositories
 {
-    public class BookRepository : IBookRepository
+    public class BookRepository : Repository<Book>, IBookRepository
     {
-        private readonly IAuthorRepository _authorRepository;
-        public BookRepository(IAuthorRepository authorRepository)
-        {
-            _authorRepository = authorRepository;
-        }
-        public IEnumerable<Book> GetAll() => DataContext.Books;
+        public BookRepository(LibraryContext context) : base(context) { }
 
-        public Book GetById(int id) 
+        public override async Task<Book>? GetByIdAsync(int id)
         {
-            var book = DataContext.Books.FirstOrDefault(b => b.Id == id);
-            if (book == null)
-                throw new KeyNotFoundException($"Book with ID {id} not found");
-            return book;
+            return await _dbSet.AsNoTracking().FirstOrDefaultAsync(a => a.Id == id);
         }
 
-        public Book Create(Book book)
+        public async Task<IEnumerable<Book>> GetBooksWithAuthorsAsync()
         {
-            if (book == null)
-                throw new ArgumentNullException(nameof(book));
-
-            if (!AuthorExists(book.AuthorId))
-                throw new KeyNotFoundException($"Author with ID {book.AuthorId} does not exist");
-
-            book.Id = DataContext.Books.Max(b => b.Id) + 1;
-            DataContext.Books.Add(book);
-            return book;
+            return await _dbSet
+                .Include(b => b.Author)
+                .AsNoTracking()
+                .ToListAsync();
         }
 
-        public void Update(Book book)
+        public async Task<IEnumerable<Book>> GetBooksPublishedAfterAsync(int year)
         {
-            var existing = GetById(book.Id);
-
-            if (!AuthorExists(book.AuthorId))
-                throw new KeyNotFoundException($"Author with ID {book.AuthorId} does not exist");
-
-            existing.Title = book.Title;
-            existing.PublishedYear = book.PublishedYear;
-            existing.AuthorId = book.AuthorId;
+            return await _dbSet
+                .Where(b => b.PublishedYear > year)
+                .AsNoTracking()
+                .ToListAsync();
         }
-
-        public void Delete(int id)
-        {
-            var book = GetById(id);
-            DataContext.Books.Remove(book);
-        }
-
-        public bool AuthorExists(int authorId) => _authorRepository.GetById(authorId) != null;
     }
 }

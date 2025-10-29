@@ -1,13 +1,10 @@
-﻿using LibraryManagement.DAL.Models;
+﻿using LibraryManagement.DAL.Entities;
 
 namespace LibraryManagement.DAL.Interfaces
 {
-    public interface IAuthorRepository
+    public interface IAuthorRepository:IRepository<Author>
     {
-        IEnumerable<Author> GetAll();
-        Author GetById(int id);
-        Author Create(Author item);
-        void Update(Author item);
-        void Delete(int id);
+        Task<IEnumerable<Author>> GetAuthorsWithBooksAsync();
+        Task <IEnumerable<Author>> FindAuthorsByNameAsync(string name);
     }
 }
