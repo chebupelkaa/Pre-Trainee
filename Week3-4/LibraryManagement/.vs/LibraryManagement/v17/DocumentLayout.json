@@ -1,0 +1,253 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD48ACD-81B8-C28B-30E4-71E015AF560E}|LibraryManagementAPI\\LibraryManagementAPI.csproj|d:\\projects\\c#\\pre-trainee\\week3-4\\librarymanagement\\librarymanagementapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD48ACD-81B8-C28B-30E4-71E015AF560E}|LibraryManagementAPI\\LibraryManagementAPI.csproj|solutionrelative:librarymanagementapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD48ACD-81B8-C28B-30E4-71E015AF560E}|LibraryManagementAPI\\LibraryManagementAPI.csproj|d:\\projects\\c#\\pre-trainee\\week3-4\\librarymanagement\\librarymanagementapi\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD48ACD-81B8-C28B-30E4-71E015AF560E}|LibraryManagementAPI\\LibraryManagementAPI.csproj|solutionrelative:librarymanagementapi\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E8A2FC-8E5F-4A81-80E0-5DD7AEE818A3}|LibraryManagement.DAL\\LibraryManagement.DAL.csproj|d:\\projects\\c#\\pre-trainee\\week3-4\\librarymanagement\\librarymanagement.dal\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E8A2FC-8E5F-4A81-80E0-5DD7AEE818A3}|LibraryManagement.DAL\\LibraryManagement.DAL.csproj|solutionrelative:librarymanagement.dal\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E8A2FC-8E5F-4A81-80E0-5DD7AEE818A3}|LibraryManagement.DAL\\LibraryManagement.DAL.csproj|d:\\projects\\c#\\pre-trainee\\week3-4\\librarymanagement\\librarymanagement.dal\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E8A2FC-8E5F-4A81-80E0-5DD7AEE818A3}|LibraryManagement.DAL\\LibraryManagement.DAL.csproj|solutionrelative:librarymanagement.dal\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E8A2FC-8E5F-4A81-80E0-5DD7AEE818A3}|LibraryManagement.DAL\\LibraryManagement.DAL.csproj|d:\\projects\\c#\\pre-trainee\\week3-4\\librarymanagement\\librarymanagement.dal\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E8A2FC-8E5F-4A81-80E0-5DD7AEE818A3}|LibraryManagement.DAL\\LibraryManagement.DAL.csproj|solutionrelative:librarymanagement.dal\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E8A2FC-8E5F-4A81-80E0-5DD7AEE818A3}|LibraryManagement.DAL\\LibraryManagement.DAL.csproj|d:\\projects\\c#\\pre-trainee\\week3-4\\librarymanagement\\librarymanagement.dal\\interfaces\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E8A2FC-8E5F-4A81-80E0-5DD7AEE818A3}|LibraryManagement.DAL\\LibraryManagement.DAL.csproj|solutionrelative:librarymanagement.dal\\interfaces\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD48ACD-81B8-C28B-30E4-71E015AF560E}|LibraryManagementAPI\\LibraryManagementAPI.csproj|d:\\projects\\c#\\pre-trainee\\week3-4\\librarymanagement\\librarymanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD48ACD-81B8-C28B-30E4-71E015AF560E}|LibraryManagementAPI\\LibraryManagementAPI.csproj|solutionrelative:librarymanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD48ACD-81B8-C28B-30E4-71E015AF560E}|LibraryManagementAPI\\LibraryManagementAPI.csproj|d:\\projects\\c#\\pre-trainee\\week3-4\\librarymanagement\\librarymanagementapi\\dtos\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD48ACD-81B8-C28B-30E4-71E015AF560E}|LibraryManagementAPI\\LibraryManagementAPI.csproj|solutionrelative:librarymanagementapi\\dtos\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD48ACD-81B8-C28B-30E4-71E015AF560E}|LibraryManagementAPI\\LibraryManagementAPI.csproj|d:\\projects\\c#\\pre-trainee\\week3-4\\librarymanagement\\librarymanagementapi\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD48ACD-81B8-C28B-30E4-71E015AF560E}|LibraryManagementAPI\\LibraryManagementAPI.csproj|solutionrelative:librarymanagementapi\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E8A2FC-8E5F-4A81-80E0-5DD7AEE818A3}|LibraryManagement.DAL\\LibraryManagement.DAL.csproj|d:\\projects\\c#\\pre-trainee\\week3-4\\librarymanagement\\librarymanagement.dal\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E8A2FC-8E5F-4A81-80E0-5DD7AEE818A3}|LibraryManagement.DAL\\LibraryManagement.DAL.csproj|solutionrelative:librarymanagement.dal\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E8A2FC-8E5F-4A81-80E0-5DD7AEE818A3}|LibraryManagement.DAL\\LibraryManagement.DAL.csproj|d:\\projects\\c#\\pre-trainee\\week3-4\\librarymanagement\\librarymanagement.dal\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E8A2FC-8E5F-4A81-80E0-5DD7AEE818A3}|LibraryManagement.DAL\\LibraryManagement.DAL.csproj|solutionrelative:librarymanagement.dal\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E8A2FC-8E5F-4A81-80E0-5DD7AEE818A3}|LibraryManagement.DAL\\LibraryManagement.DAL.csproj|d:\\projects\\c#\\pre-trainee\\week3-4\\librarymanagement\\librarymanagement.dal\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E8A2FC-8E5F-4A81-80E0-5DD7AEE818A3}|LibraryManagement.DAL\\LibraryManagement.DAL.csproj|solutionrelative:librarymanagement.dal\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD48ACD-81B8-C28B-30E4-71E015AF560E}|LibraryManagementAPI\\LibraryManagementAPI.csproj|d:\\projects\\c#\\pre-trainee\\week3-4\\librarymanagement\\librarymanagementapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ACD48ACD-81B8-C28B-30E4-71E015AF560E}|LibraryManagementAPI\\LibraryManagementAPI.csproj|solutionrelative:librarymanagementapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD48ACD-81B8-C28B-30E4-71E015AF560E}|LibraryManagementAPI\\LibraryManagementAPI.csproj|d:\\projects\\c#\\pre-trainee\\week3-4\\librarymanagement\\librarymanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ACD48ACD-81B8-C28B-30E4-71E015AF560E}|LibraryManagementAPI\\LibraryManagementAPI.csproj|solutionrelative:librarymanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 276,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagementAPI\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "LibraryManagementAPI\\Controllers\\AuthorsController.cs",
+              "ToolTip": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagementAPI\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "LibraryManagementAPI\\Controllers\\AuthorsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T18:17:16.964Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagementAPI\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "LibraryManagementAPI\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagementAPI\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "LibraryManagementAPI\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswGEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T18:17:19.193Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagementAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LibraryManagementAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagementAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LibraryManagementAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-19T20:43:45.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagement.DAL\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.DAL\\Repositories\\BookRepository.cs",
+              "ToolTip": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagement.DAL\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "LibraryManagement.DAL\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowBIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:43:23.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagement.DAL\\Repositories\\AuthorRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.DAL\\Repositories\\AuthorRepository.cs",
+              "ToolTip": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagement.DAL\\Repositories\\AuthorRepository.cs",
+              "RelativeToolTip": "LibraryManagement.DAL\\Repositories\\AuthorRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:43:13.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagement.DAL\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.DAL\\Models\\Book.cs",
+              "ToolTip": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagement.DAL\\Models\\Book.cs",
+              "RelativeToolTip": "LibraryManagement.DAL\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:43:10.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Author.cs",
+              "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagement.DAL\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.DAL\\Models\\Author.cs",
+              "ToolTip": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagement.DAL\\Models\\Author.cs",
+              "RelativeToolTip": "LibraryManagement.DAL\\Models\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:43:08.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagement.DAL\\Interfaces\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.DAL\\Interfaces\\IBookRepository.cs",
+              "ToolTip": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagement.DAL\\Interfaces\\IBookRepository.cs",
+              "RelativeToolTip": "LibraryManagement.DAL\\Interfaces\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:43:03.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAuthorRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagement.DAL\\Interfaces\\IAuthorRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.DAL\\Interfaces\\IAuthorRepository.cs",
+              "ToolTip": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagement.DAL\\Interfaces\\IAuthorRepository.cs",
+              "RelativeToolTip": "LibraryManagement.DAL\\Interfaces\\IAuthorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:42:59.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagementAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "LibraryManagementAPI\\appsettings.json",
+              "ToolTip": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagementAPI\\appsettings.json",
+              "RelativeToolTip": "LibraryManagementAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-19T20:42:54.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagement.DAL\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.DAL\\Data\\DataContext.cs",
+              "ToolTip": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagement.DAL\\Data\\DataContext.cs",
+              "RelativeToolTip": "LibraryManagement.DAL\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:40:48.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagementAPI\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryManagementAPI\\Program.cs",
+              "ToolTip": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagementAPI\\Program.cs",
+              "RelativeToolTip": "LibraryManagementAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T18:17:36.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookDTO.cs",
+              "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagementAPI\\DTOs\\BookDTO.cs",
+              "RelativeDocumentMoniker": "LibraryManagementAPI\\DTOs\\BookDTO.cs",
+              "ToolTip": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagementAPI\\DTOs\\BookDTO.cs",
+              "RelativeToolTip": "LibraryManagementAPI\\DTOs\\BookDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T18:17:24.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthorDTO.cs",
+              "DocumentMoniker": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagementAPI\\DTOs\\AuthorDTO.cs",
+              "RelativeDocumentMoniker": "LibraryManagementAPI\\DTOs\\AuthorDTO.cs",
+              "ToolTip": "D:\\Projects\\c#\\Pre-Trainee\\Week3-4\\LibraryManagement\\LibraryManagementAPI\\DTOs\\AuthorDTO.cs",
+              "RelativeToolTip": "LibraryManagementAPI\\DTOs\\AuthorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T18:17:22.26Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
